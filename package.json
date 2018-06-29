@@ -1,0 +1,29 @@
+{
+  "name": "learning-mern-stack",
+  "version": "1.0.0",
+  "description": "Shopping list built with the MERN stack",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MurrTuck/learning-MERN-stack.git"
+  },
+  "author": "Murr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MurrTuck/learning-MERN-stack/issues"
+  },
+  "homepage": "https://github.com/MurrTuck/learning-MERN-stack#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^3.6.0",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
